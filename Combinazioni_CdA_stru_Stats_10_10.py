@@ -49,10 +49,6 @@ X_V_4str    =     [(1,1,1), (1,1,2), (1,1,3), (1,1,4), (1,2,1), (1,2,2), (1,2,3)
                     (5,6,1), (5,6,2), (5,6,3), (5,6,4), (6,1,1), (6,1,2), (6,1,3), (6,1,4), 
                     (7,1,1), (7,1,2), (7,1,3), (7,1,4)]  # pos.6   (s_st, mat, L_max)
 
-#---- ponti in c.a.p. con luce >15m
-# X_V_4str    =     [(1,2,3), (1,2,4), (2,2,3), (2,2,4), (5,2,3), (5,2,4)] 
-#---- ponti in c.a.p. con luce <15m
-#X_V_4str    =     [(1,2,1), (1,2,2), (2,2,1), (2,2,2), (5,2,1), (5,2,2)]  # pos.5    (s_st, mat, L_max) # pos.5    (s_st, mat, L_max)
 X_n_camp    =     [1,2] # pos.7
 
 #
@@ -75,9 +71,6 @@ X = [X_veicoli,     # SE MODIFICO L'ORDINE DEI PARAMETRI DEVO AGGIORNARE IL DIZI
      X_norma,
      X_sali,
      X_V_4str,
-     # X_s_st,
-     # X_mat,  
-     # X_L_max, 
      X_n_camp, 
      #---------------
      X_tgm,
